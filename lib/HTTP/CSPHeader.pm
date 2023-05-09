@@ -20,9 +20,9 @@ our $VERSION = 'v0.2.2';
 
 =head1 SYNOPSIS
 
-  use HTTP::CSPheader;
+  use HTTP::CSPHeader;
 
-  my $csp = HTTP::CSPheader->new(
+  my $csp = HTTP::CSPHeader->new(
     policy => {
        "default-src" => q['self'],
        "script-src"  => q['self' cdn.example.com],
